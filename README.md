@@ -11,18 +11,3 @@ This repository contains a full-stack AI implementation that transforms a genera
 - **Local Deployment:** Model exported to GGUF and hosted via **Ollama** to serve as a high-speed, private inference engine for the nutritionist agent.
 
 ---
-
-## 🛠️ Setup & Installation
-
-### 1. Local Model Preparation (Ollama)
-First, ensure [Ollama](https://ollama.com/) is installed. After running the fine-tuning notebook, register your model:
-```bash
-# Register the model using the provided Modelfile
-ollama create nutrition-agent -f Modelfile
-
-# Start the local server
-ollama serve
-
-### 2. Environment setup
-# Install Python dependencies
-pip install -r requirements.txt
