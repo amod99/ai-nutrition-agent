@@ -1,0 +1,26 @@
+### 2. `.gitignore`
+#Standard ignore patterns for Python, Jupyter, and local LLM storage to keep your repo clean and secure.
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments & Virtual Envs
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Model Weights & GGUF (Too large for Git)
+*.gguf
+lora_model/
+outputs/
+my_nutrition_model/
+
+# Local data files
+*.jsonl
+nutrition_data.db

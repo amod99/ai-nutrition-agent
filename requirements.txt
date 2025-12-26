@@ -1,0 +1,18 @@
+# Core ML & Fine-tuning
+torch
+transformers
+datasets
+peft
+accelerate
+bitsandbytes
+unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git
+
+# Data Processing
+pydantic
+scikit-learn
+jsonlines
+
+# Agentic Serving
+ollama
+langchain-ollama
+google-generativeai
