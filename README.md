@@ -22,3 +22,7 @@ ollama create nutrition-agent -f Modelfile
 
 # Start the local server
 ollama serve
+
+### 2. Environment setup
+# Install Python dependencies
+pip install -r requirements.txt
